@@ -17,12 +17,7 @@ CREATE TABLE `todos` (
 
 
 INSERT INTO `todos` (`id`, `title`, `description`, `date`, `user_id`) VALUES
-(1, 'Create a PHP Program', 'In this PHP program I will be create a Todo List with Multi User registration system. It means Multiple user can register their account and add todos.', '2021-09-15', 1),
-(2, 'Upload a YouTube Video', 'Just for testing.....', '2021-09-15', 1),
-(3, 'Newsapp for video', 'This is a basic news app and here all data from api.', '2021-09-15', 1),
-(4, 'Aliquam feugiat sapien in turpis dapibus, sit amet', 'Donec nec velit et velit scelerisque vehicula eget non sem.\r\nMauris ac purus nec nisi bibendum accumsan vel sit amet lectus.', '2021-09-15', 1),
-(5, 'Second user todo', 'here are some descriptions', '2021-09-15', 4);
-
+(1, 'Create a PHP Program', 'In this PHP program I will be create a Todo List with Multi User registration system. It means Multiple user can register their account and add todos.', '2022-12-15', 1);
 
 
 CREATE TABLE `users` (
@@ -34,9 +29,8 @@ CREATE TABLE `users` (
 
 
 INSERT INTO `users` (`id`, `email`, `password`) VALUES
-(1, 'purecodingofficial@gmail.com', '0139a3c5cf42394be982e766c93f5ed0'),
-(3, 'musabwebdev@gmail.com', 'b4be228cfaab078906e7a1abc9b63f19'),
-(4, 'test@gmail.com', '098f6bcd4621d373cade4e832627b4f6');
+(1, 'Mr.Nobody@gmail.com', '0c12278389532e91c601af4c8adef7fc'),
+
 
 
 ALTER TABLE `todos`

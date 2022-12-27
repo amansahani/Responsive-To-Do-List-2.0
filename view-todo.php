@@ -14,6 +14,7 @@ if (!isset($_SESSION["user_email"])) {
 
 <head>
     <?php getHead(); ?>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
